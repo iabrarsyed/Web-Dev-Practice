@@ -10,6 +10,7 @@
         tr,
         td {
             height: 50px;
+            width: 370px;
             background-color: cadetblue;
         }
     </style>
@@ -29,35 +30,44 @@
         <form action="">
             <table>
                 <tr>
-                    <!-- <td><label for="">Name</label></td> -->
-                    <td><input type="text" name="fn" id="" placeholder="Enter Your Name"></td>
+                    <td>
+                        <input type="text" name="fn" id="" placeholder="Enter Your Name">
+                        <input type="text" name="add" id="" placeholder="Enter Address">
+                    </td>
                 </tr>
                 <tr>
-                    <!-- <td><label for="">Address</label></td> -->
-                    <td><input type="text" name="add" id="" placeholder="Enter Address"></td>
+                    <td>
+                        <input type="date" name="date" id="">
+                        <input type="time" name="time" id="">
+                    </td>
                 </tr>
                 <tr>
-                    <!-- <td><label for="">Password</label></td> -->
-                    <td><input type="date" name="date" id="" placeholder="Date of birth"></td>
+                    <td><input type="number" name="pwd" id="" placeholder="Phone number">
+                        <input type="email" name="em" id="" placeholder="Email">
+                    </td>
+                </tr>
+                <td>
+                    <label for=""><b>Gender</b></label>
+                    <input type="radio" name="gender" id="male"><label for="male">Male</label>
+                    <input type="radio" name="gender" id="female"><label for="female">Female</label>
+                </td>
+                <tr>
+                    <td><input type="password" name="pwd" id="" placeholder="New Password">
+                        <input type="password" name="pwd" id="" placeholder="Confirm New Password">
+                    </td>
                 </tr>
                 <tr>
-                    <!-- <td><label for="">Password</label></td> -->
-                    <td><input type="number" name="pwd" id="" placeholder="Phone number"></td>
+                    <td>
+                        <label for=""><b>Hobbies</b></label>
+                        <input type="checkbox" name="playing" id=""><label for="">Playing</label>
+                        <input type="checkbox" name="reading" id=""><label for="">Reading</label>
+                        <input type="checkbox" name="drawing" id=""><label for="">Drawing</label>
+                        <input type="checkbox" name="Singing" id=""><label for="">Singing</label>
+                        <input type="checkbox" name="Dancing" id=""><label for="">Dancing</label>
+                    </td>
                 </tr>
                 <tr>
-                    <!-- <td><label for="">Email</label></td> -->
-                    <td><input type="email" name="em" id="" placeholder="Email"></td>
-                </tr>
-                <tr>
-                    <!-- <td><label for="">Password</label></td> -->
-                    <td><input type="password" name="pwd" id="" placeholder="New Password"></td>
-                </tr>
-                <tr>
-                    <!-- <td><label for="">Password</label></td> -->
-                    <td><input type="password" name="pwd" id="" placeholder="Confirm New Password"></td>
-                </tr>
-                <tr>
-                    <td><button type="submit">Submit</button></td>
+                    <td><center><button type="submit">Submit</button></center></td>
                 </tr>
             </table>
         </form>
