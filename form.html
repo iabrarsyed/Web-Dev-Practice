@@ -31,8 +31,8 @@
             <table>
                 <tr>
                     <td>
-                        <input type="text" name="fn" id="" placeholder="Enter Your Name">
-                        <input type="text" name="add" id="" placeholder="Enter Address">
+                        <input type="text" name="fn" id="" placeholder="Enter First Name">
+                        <input type="text" name="fn" id="" placeholder="Enter Last Name">
                     </td>
                 </tr>
                 <tr>
@@ -57,6 +57,10 @@
                     </td>
                 </tr>
                 <tr>
+                    <td><textarea name="" id="" cols="20" rows="1" placeholder="Address"></textarea>
+                    <textarea name="" id="" cols="20" rows="1" placeholder="Feedback"></textarea></td>
+                </tr>
+                <tr>
                     <td>
                         <label for=""><b>Hobbies</b></label>
                         <input type="checkbox" name="playing" id=""><label for="">Playing</label>
@@ -68,25 +72,44 @@
                 </tr>
                 <tr>
                     <td><label for="">Select Course</label>
-                        <select name="sb" id="">
+                        <select name="sb" id="" required>
                             <option value="">None</option>
-                            <optgroup label="B.tech"></optgroup>
-                            <option value="Computer Science Engineering"></option>
-                            <option value="Civil Engineering"></option>
-                            <option value="Mechanical Engineering"></option>
-                            <option value="Electrical Engineering"></option>
+                            <optgroup label="B.Tech"></optgroup>
+                            <option value="cse">Computer Science Engineering</option>
+                            <option value="ce">Civil Engineering</option>
+                            <option value="me">Mechanical Engineering</option>
+                            <option value="ee">Electrical Engineering</option>
+                            <option value="ece">Electronics and Communication Eng.</option>
+                            <optgroup label="B.Sc"></optgroup>
+                            <option value="agr">Agriculture</option>
+                            <option value="bt">Biotechnology</option>
+                            <option value="nur">Nursing</option>
+                            <option value="rad">Radiology</option>
+                            <option value="bioc">Biochemistry</option>
+                            <option value="mbio">Microbiology</option>
                         </select>
                     </td>
                 </tr>
                 <tr>
                     <td><label for="">Select College</label>
-                        <select name="sb" id="">
+                        <select name="sb" id="" required>
                             <option value="">None</option>
-                            <optgroup label="B.tech CSE"></optgroup>
-                            <option value="Chandigarh University"></option>
-                            <option value="Lovely Proffesional University"></option>
-                            <option value="Amity University"></option>
-                            <option value="CGC Jhanjheri"></option>
+                            <optgroup label="B.tech"></optgroup>
+                            <option value="iitb">IIT Bombay</option>
+                            <option value="nitt">NIT Trichy</option>
+                            <option value="vit">Vellore Institute of Technology</option>
+                            <option value="cu">Chandigarh University</option>
+                            <option value="lpu">Lovely Proffesional University</option>
+                            <option value="au">Amity University</option>
+                            <option value="cgc">CGC Jhanjheri</option>
+                            <optgroup label="B.Sc"></optgroup>
+                            <option value="ku">Unversity of Kashmir</option>
+                            <option value="sp">Sri Pratap College</option>
+                            <option value="as">Amar Singh College</option>
+                            <option value="icsc">Islamia College</option>
+                            <option value="cu">Cluster University</option>
+                            
+                            
                         </select>
                     </td>
                 </tr>
