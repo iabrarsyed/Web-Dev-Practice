@@ -1,0 +1,22 @@
+body {
+    background-color: gainsboro;
+}
+
+h1 {
+    color: turquoise;
+    background-color: tomato;
+    border: 1px solid;
+    text-align: center;
+}
+.date {
+    background-color: yellowgreen;
+    text-align: center;
+    border: 1px solid black;
+    font-size: larger;
+    color: cornflowerblue;
+}
+#para {
+    background-color: greenyellow;
+    border: 1px solid;
+    color:darkblue;
+}

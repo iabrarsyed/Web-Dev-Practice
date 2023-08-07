@@ -16,136 +16,142 @@
 <body>
     <form action="">
         <table>
-            <tr style="text-align:right;">
-            </tr>
-            <tr>
-                <td style="font-size: xx-large; text-align: left;">
-                    ACME GLOBAL <br>
-                    <div
-                        style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size:large;">
-                        company</div>
-                </td>
-                <td style="text-align: right;">
-                    <b>ACME GLOBAL COMPANY</b> <br>
-                    123 Maple street, Houston, TX, 77002 <br>
-                    example@example.com <br>
-                    www.example.com <br>
-                    (123) 1234567 <br>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <h3>CUSTOMER DETAILS:</h3>
-                </td>
-            </tr>
+            <thead>
+                <tr style="text-align:right;">
+                </tr>
+                <tr>
+                    <td style="font-size: xx-large; text-align: left;">
+                        ACME GLOBAL <br>
+                        <div
+                            style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size:large;">
+                            company</div>
+                    </td>
+                    <td style="text-align: right;">
+                        <b>ACME GLOBAL COMPANY</b> <br>
+                        123 Maple street, Houston, TX, 77002 <br>
+                        example@example.com <br>
+                        www.example.com <br>
+                        (123) 1234567 <br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>CUSTOMER DETAILS:</h3>
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                </tr>
+                <tr>
+                    <td><label for="">Full Name *</label></td>
+                </tr>
 
-            </tr>
-            <tr>
-                <td><label for="">Full Name *</label></td>
-            </tr>
+                <tr>
+                    <td><input type="text" required>
+                        <div id="firstn" class="form-text" style="opacity: 60%; font-size: small;">First Name</div>
+                    </td>
+                    <td><input type="text">
+                        <div id="lastn" class="form-text" style="opacity: 60%; font-size: small;">Last Name</div>
+                    </td>
 
-            <tr>
-                <td><input type="text" required>
-                    <div id="firstn" class="form-text" style="opacity: 60%; font-size: small;">First Name</div>
-                </td>
-                <td><input type="text">
-                    <div id="lastn" class="form-text" style="opacity: 60%; font-size: small;">Last Name</div>
-                </td>
+                </tr>
+                <tr>
+                    <td><label for="">Address *</label></td>
+                </tr>
+                <tr>
+                    <td><input type="text">
+                        <div id="stadd" class="form-text" style="opacity: 60%; font-size: small;">Street Address</div>
+                    </td>
+                    <td><input type="text">
+                        <div id="staddl2" class="form-text" style="opacity: 60%; font-size: small;">Street Address Line
+                            2
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="text">
+                        <div id="city" class="form-text" style="opacity: 60%; font-size: small;">City</div>
+                    </td>
+                    <td><input type="text">
+                        <div id="state" class="form-text" style="opacity: 60%; font-size: small;">State/Province</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="number">
+                        <div id="zip" class="form-text" style="opacity: 60%; font-size: small;">Postal/Zip Code</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">Phone Number *</label>
+                    </td>
+                    <td><label for="">E-mail</label></td>
+                </tr>
+                <tr>
+                    <td><input type="number" placeholder="(000) 000-0000" required></td>
+                    <td><input type="email">
+                        <div id="em" class="form-text" style="opacity: 60%; font-size: small;">example@example.com</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">How did you hear about us? *</label>
+                    </td>
+                    <td><label for="">Please Specify *</label></td>
+                </tr>
+                <tr>
+                    <td><select name="" id="" required style="width: 200px;">
+                            <option value="">Please Select</option>
+                        </select></td>
+                    <td><input type="text" name="" id="" required></td>
+                </tr>
+                <tr>
+                    <td>Feedback about us:</td>
+                </tr>
+                <tr>
+                    <td><textarea name="" id="" cols="55" rows="10"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Suggestions if any for further improvement:</td>
+                </tr>
+                <tr>
+                    <td><textarea name="" id="" cols="55" rows="10"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="">Will you be willing to recommend us?</label></td>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="recmnd" id="yes"><label for="yes">Yes</label></td>
+                </tr>
 
-            </tr>
-            <tr>
-                <td><label for="">Address *</label></td>
-            </tr>
-            <tr>
-                <td><input type="text">
-                    <div id="stadd" class="form-text" style="opacity: 60%; font-size: small;">Street Address</div>
-                </td>
-                <td><input type="text">
-                    <div id="staddl2" class="form-text" style="opacity: 60%; font-size: small;">Street Address Line 2
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td><input type="text">
-                    <div id="city" class="form-text" style="opacity: 60%; font-size: small;">City</div>
-                </td>
-                <td><input type="text">
-                    <div id="state" class="form-text" style="opacity: 60%; font-size: small;">State/Province</div>
-                </td>
-            </tr>
-            <tr>
-                <td><input type="number">
-                    <div id="zip" class="form-text" style="opacity: 60%; font-size: small;">Postal/Zip Code</div>
-                </td>
-            </tr>
-            <tr>
-                <td><label for="">Phone Number *</label>
-                </td>
-                <td><label for="">E-mail</label></td>
-            </tr>
-            <tr>
-                <td><input type="number" placeholder="(000) 000-0000" required></td>
-                <td><input type="email">
-                    <div id="em" class="form-text" style="opacity: 60%; font-size: small;">example@example.com</div>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="">How did you hear about us? *</label>
-                </td>
-                <td><label for="">Please Specify *</label></td>
-            </tr>
-            <tr>
-                <td><select name="" id="" required style="width: 200px;">
-                        <option value="">Please Select</option>
-                    </select></td>
-                <td><input type="text" name="" id="" required></td>
-            </tr>
-            <tr>
-                <td>Feedback about us:</td>
-            </tr>
-            <tr>
-                <td><textarea name="" id="" cols="55" rows="10"></textarea></td>
-            </tr>
-            <tr>
-                <td>Suggestions if any for further improvement:</td>
-            </tr>
-            <tr>
-                <td><textarea name="" id="" cols="55" rows="10"></textarea></td>
-            </tr>
-            <tr>
-                <td><label for="">Will you be willing to recommend us?</label></td>
-            </tr>
-            <tr>
-                <td><input type="radio" name="recmnd" id="yes"><label for="yes">Yes</label></td>
-            </tr>
-
-            <tr>
-                <td><input type="radio" name="recmnd" id="no"><label for="no">No</label></td>
-            </tr>
-            <tr>
-                <td><input type="radio" name="recmnd" id="maybe"><label for="maybe">Maybe</label></td>
-            </tr>
-            <tr>
-                <td>Please give reference of any two people whom you feel:</td>
-            </tr>
-            <tr>
-                <td><input type="text" placeholder="1. Full Name">
-                    <input type="text" placeholder="Address">
-                    <input type="number" placeholder="Contact Number">
-                </td>
-            </tr>
-            <tr>
-                <td><input type="text" placeholder="2. Full Name">
-                    <input type="text" placeholder="Address">
-                    <input type="number" placeholder="Contact Number">
-                </td>
-            </tr>
-            <tr>
-                <td style="justify-content:center; align-items: center; display: flex;">
-                    <button type="submit">Submit</button>
-                </td>
-            </tr>
+                <tr>
+                    <td><input type="radio" name="recmnd" id="no"><label for="no">No</label></td>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="recmnd" id="maybe"><label for="maybe">Maybe</label></td>
+                </tr>
+                <tr>
+                    <td>Please give reference of any two people whom you feel:</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td><input type="text" placeholder="1. Full Name">
+                        <input type="text" placeholder="Address">
+                        <input type="number" placeholder="Contact Number">
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="text" placeholder="2. Full Name">
+                        <input type="text" placeholder="Address">
+                        <input type="number" placeholder="Contact Number">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="justify-content:center; align-items: center; display: flex;">
+                        <button type="submit">Submit</button>
+                    </td>
+                </tr>
+            </tfoot>
         </table>
     </form>
 
