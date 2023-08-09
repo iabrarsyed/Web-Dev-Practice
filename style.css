@@ -3,11 +3,28 @@ body {
 }
 
 h1 {
-    color: turquoise;
-    background-color: tomato;
-    border: 1px solid;
-    text-align: center;
+    /* border: 5px solid red; */
+    border-bottom-width: 2px;
+        border-bottom-style: double;
+        border-bottom-color: black;
+        text-align: center;
+    /* border-top: 5px double blue;
+        border-right: 3px dotted red;
+        border-bottom: 10px ridge green;
+        border-left: 50px outset teal; */
+    /* border-width: 5px ;
+        border-style: double;
+        border-color: blue ; */
+
+    /* border:5px double blue;
+    max-width: 700px;
+    min-width: 400px;
+    min-width: 400px;
+    max-height: 250px;
+    min-height: 150px; */
+
 }
+
 .date {
     background-color: yellowgreen;
     text-align: center;
@@ -15,8 +32,39 @@ h1 {
     font-size: larger;
     color: cornflowerblue;
 }
+
 #para {
     background-color: greenyellow;
     border: 1px solid;
-    color:darkblue;
+    color: darkblue;
+}
+
+.box1 {
+    border: 5px solid deepskyblue;
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    /* margin: 50px auto;
+    width: 1200px; */
+    padding:10px 30px;
+}
+.box2 {
+    border: 5px solid orangered;
+    margin: 50px auto;
+    width: 500px;
+    padding-top: 30px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+}
+.box3 {
+    border: 5px solid blue;
+    margin: 50px auto;
+    padding-top:40px ;
+    padding-right:20px ;
+    padding-bottom:50px ;
+    padding-left:30px ;
+    box-sizing: border-box;
+    width: 500px;
 }
