@@ -22,7 +22,12 @@ h1 {
     min-width: 400px;
     max-height: 250px;
     min-height: 150px; */
-
+    /* outline: 5px solid green;
+    outline-offset: 10px; */
+    /* outline-width: 10px;
+    outline-style: dotted;
+    outline-color: red; */
+    outline: 7px dotted goldenrod;
 }
 
 .date {
@@ -34,7 +39,7 @@ h1 {
 }
 
 .box1 {
-    border: 5px dotted deepskyblue;
+    border: 5px ridge deepskyblue;
     /* margin-top: 10px;
     margin-right: 50px;
     margin-bottom: 30px;
@@ -42,6 +47,9 @@ h1 {
     /* margin: 50px auto;
     width: 1200px; */
     /* padding: 10px 30px; */
+    overflow-y: hidden;
+    width: 500px;
+    height: 150px;
 }
 
 .box2 {
@@ -52,11 +60,14 @@ h1 {
     padding-right: 50px;
     padding-bottom: 40px;
     padding-left: 20px;*/
+    overflow-x: scroll;
+    width: 300px;
+    height: 150px;
     
 }
 
 .box3 {
-    border: 5px ridge blue;
+    border: 5px solid blue;
     box-sizing: border-box;
     width: 400px;
     height: 200px;
