@@ -5,75 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LogicHubSoftwareSolutions</title>
-    <style>
-        table,
-        th,
-        td {
-            border: 2px solid black;
-            width: 1000px;
-            color: navy;
-            height: 50px;
-        }
-
-        thead {
-            background-color: chartreuse;
-        }
-
-        tbody {
-            background-color: cyan;
-
-
-        }
-
-        tfoot {
-            background-color: cornflowerblue;
-        }
-
-        img {
-            justify-content: center;
-            display: flexbox;
-            align-items: center;
-            margin-left: 20px;
-            margin-bottom: 10px;
-            width: 350px;
-            height: 300px;
-        }
-
-        video {
-            margin-left: 200px;
-            margin-top: 10px;
-            margin-bottom: 10px;
-            margin-right: 10px;
-            width: 1100px;
-        }
-
-        audio {
-            margin-left: 400px;
-            margin-top: 10px;
-            margin-right: 400px;
-            margin-bottom: 10px;
-            width: 700px;
-
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="tablestyle.css">
 </head>
 
-<body style="background-color: silver;">
+<body>
 
-    <div>
+    <div class="indcont1">
         <a href="index.html">Home</a>
-        <a href="audioVideo.html" style="margin-left: 10px;">Gallery</a>
-        <a href="table.html" style="margin-left: 10px;">Table</a>
-        <a href="form.html" style="margin-left: 10px;">Form</a>
-        <h1 style="color: dodgerblue;"><i>Welcome To Logic Hub Software Solutions.</i></h1>
-        <h2 style="font-size: xx-large;">Home</h2>
-        <h2 style="color:forestgreen;"><u>Started on 28<sup>th</sup>July 2023.</u></h2>
+        <a href="cssPractice.html">CSSPractice</a>
+        <a href="task.html">Form1</a>
+        <a href="task2.html">Form2</a>
+        <h1 class="headd"><i>Welcome To Logic Hub Software Solutions.</i></h1>
+        <h2 class="headd2">Started on 28<sup>th</sup>July 2023.</h2>
+        <h2>Home</h2>
+
     </div>
 
-    <div style="background-color: burlywood ;">
+    <div class="indcont2">
         <p><a href="https://en.wikipedia.org/wiki/Nature" target="_blank"><b>Nature</b></a>, in the broadest
             sense, is the physical world or universe.
-            <span style="color:aqua;"><u> "Nature"can refer to the phenomena of the physical world,
+            <span><u> "Nature"can refer to the phenomena of the physical world,
                     and also to life in general.</u></span>
             The study of nature is a large, if not the only, part of science. Although humans are part of nature, human
             activity is often understood as a separate category from other natural phenomena.The word nature is borrowed
@@ -112,23 +64,26 @@
     </div>
 
 
-    <h2 style="font-size: xx-large;">Gallery</h2>
+    <h2 class="headd3">Gallery</h2>
 
-    <div style="background-color: darkcyan;">
+    <div class="mediavid">
         <video src="video/production_id_4565489 (720p).mp4" controls muted autoplay loop></video>
-        <audio src="audio/the-beat-of-nature-122841.mp3" controls autoplay loop muted></audio>
-        <img src="images/photo-1682685794761-c8e7b2347702.avif" alt="Man on a cliff.">
-        <img src="images/1640892754622.jpg" alt="Mountain.">
-        <img src="images/1640892911945.jpg" alt="river.">
-        <img src="images/1640892911681.jpg" alt="Trees.">
+    </div>
+    <div>
+        <audio src="audio/the-beat-of-nature-122841.mp3" controls autoplay loop ></audio>
+    </div>
+    <div class="mediaimg">
+        <img src="images/photo-1682685794761-c8e7b2347702.avif" alt="Man on a cliff." class="imagess">
+        <img src="images/1640892754622.jpg" alt="Mountain." class="imagess">
+        <img src="images/1640892911945.jpg" alt="river." class="imagess">
+        <img src="images/1640892911681.jpg" alt="Trees." class="imagess">
     </div>
 
+    <h2 class="headd4">Table</h2>
 
-    <h2 style="font-size: xx-large;">Table</h2>
 
-
-    <div style="background-color:gold;">
-        <table style="margin-left: 250px;">
+    <div>
+        <table>
             <thead>
                 <tr>
                     <th>Name</th>
@@ -186,7 +141,7 @@
             </tfoot>
         </table>
     </div>
-    <h3>Copyright Reserved - LogicHubSoftwareSolutions.</h3>
+    <h3 class="foott1">Copyright Reserved - LogicHubSoftwareSolutions.</h3>
 
 </body>
 

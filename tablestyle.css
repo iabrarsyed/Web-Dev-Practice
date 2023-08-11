@@ -1,0 +1,23 @@
+table,
+th,
+td {
+    border: 2px solid black;
+    width: 1000px;
+    color: rgb(0, 0, 0);
+    height: 50px;
+    margin: 50px auto;
+}
+
+thead {
+    background-color: chartreuse;
+}
+
+tbody {
+    background-color: cyan;
+
+
+}
+
+tfoot {
+    background-color: cornflowerblue;
+}

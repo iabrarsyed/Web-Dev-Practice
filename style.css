@@ -10,7 +10,7 @@ body {
     width: 170px;
     height: 40px;
     margin: 50px auto;
-    color:steelblue;
+    color: steelblue;
     /* border-top: 5px double blue;
         border-right: 3px dotted red;
         border-bottom: 10px ridge green;
@@ -50,7 +50,7 @@ body {
     /* margin: 50px auto;
     width: 1200px; */
     /* padding: 10px 30px; */
-    overflow-x :scroll;
+    overflow-x: scroll;
     width: 500px;
     height: 150px;
     box-sizing: border-box;
@@ -69,7 +69,7 @@ body {
     width: 300px;
     height: 150px;
     box-shadow: -10px 10px 5px 5px gray;
-    
+
 }
 
 .box3 {
@@ -85,7 +85,7 @@ body {
     background-color: thistle;
     margin: 50px auto;
     padding: 30px;
-    
+
 }
 
 .container1 {
@@ -97,9 +97,111 @@ body {
     border-bottom-right-radius: 5px 5px 10px 15px green; */
     box-shadow: -5px 5px 5px 5px gray;
 }
-img {
-    width: 700px;
-    height: 500px;
-    border-radius: 0px 500px;
+
+
+.headd {
+    color: lightseagreen;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+}
+
+.headd2 {
+    color: red
+}
+
+.indcont1 {
+    width: 600px;
+    height: 150px;
     margin: 50px auto;
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+
+.indcont2 {
+    width: 100%;
+    height: 100%;
+    margin: 30px auto;
+    padding: 30px;
+    box-sizing: border-box;
+    box-shadow: -5px 5px 10px 3px gray;
+    background-color: palegreen;
+    outline: 3px ridge gray;
+}
+
+video {
+    width: 1100px;
+    height: 625px;
+}
+
+.mediavid {
+    width: 1100px;
+    height: 625px;
+    margin: 10px 10px 10px 225px;
+    outline: 8px ridge goldenrod;
+}
+
+audio {
+    width: 500px;
+    margin-top: 5px;
+    margin-left: 550px;
+}
+
+.imagess {
+    width: 350px;
+    height: 400px;
+    margin: 20px auto;
+    padding: 10px;
+    outline: 5px solid gray;
+    /* box-shadow: -5px 5px 7px 6px black; */
+}
+
+.mediaimg {
+    background-color: aquamarine;
+}
+
+
+.headd3 {
+    text-align: center;
+    
+}
+.headd4 {
+    text-align: center;
+}
+.foott1 {
+    text-align: center;
+}
+.tab1 {
+    border: 2px solid black;
+    margin: 5px auto;
+}
+.tab2 {
+    border: 2px solid black;
+    margin: 5px auto;
+}
+
+.imagess1 {
+    width: 350px;
+    height: 400px;
+    border-radius: 0px 400px 500px;
+    margin: 30px auto;
+    padding: 70px;
+   
+}
+.imagess2 {
+    width: 350px;
+    height: 400px;
+    border-radius: 500px 500px;
+    margin: 30px auto;
+    padding: 70px;
+}
+.imagess3 {
+    width:350px;
+    height: 400px;
+    border-radius: 500px 400px 0px;
+    margin: 30px auto;
+    padding: 70px;
 }
