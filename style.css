@@ -85,17 +85,25 @@ body {
     background-color: thistle;
     margin: 50px auto;
     padding: 30px;
+    text-align: center;
+    text-align-last:auto;
+    text-transform:capitalize;
+    text-indent:100px;
+    word-spacing:5px;
+    letter-spacing:2px;
+    line-height:20px;
 
 }
 
 .container1 {
     width: 500px;
-    height: 500px;
+    height: 700px;
     /* border-top-left-radius: 5px 5px 10px 15px green;
     border-top-right-radius: 5px 5px 10px 15px green;
     border-bottom-left-radius: 5px 5px 10px 15px green;
     border-bottom-right-radius: 5px 5px 10px 15px green; */
     box-shadow: -5px 5px 5px 5px gray;
+    overflow: auto;
 }
 
 
