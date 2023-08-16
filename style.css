@@ -55,6 +55,7 @@ body {
     height: 150px;
     box-sizing: border-box;
     box-shadow: -10px 10px 5px 5px gray;
+    text-decoration: double salmon line-through 1px;
 }
 
 .box2 {
@@ -70,6 +71,7 @@ body {
     height: 150px;
     box-shadow: -10px 10px 5px 5px gray;
     margin-left: 100px;
+    text-decoration: solid salmon overline 2px;
 
 }
 
@@ -81,6 +83,27 @@ body {
     overflow: auto;
     box-shadow: -10px 10px 5px 5px gray;
     margin-left: 1000px;
+    text-decoration: dashed salmon underline 2px;
+}
+.boxx {
+    border: 5px solid gray;
+    outline: 3px ridge red;
+    margin: 50px auto;
+    font-size: 20px;
+    /* text-decoration-line:line-through ;
+    text-decoration-color: aqua ;
+    text-decoration-style:double;
+    text-decoration-thickness: 1px; */
+    text-decoration: dashed salmon underline 2px;
+}
+.listt, li {
+    border: 3px ridge firebrick;
+    font-size: 20px;
+    margin: 10px;
+    /* list-style-type: circle;
+    list-style-position:inside;
+    list-style-image: url(images/right-arrow-outline.png); */
+    list-style: circle inside url(images/icons8-arrow-24.png);
 }
 
 .cont {
@@ -94,6 +117,7 @@ body {
     word-spacing:3px;
     letter-spacing:1px;
     line-height:20px;
+    
 
 }
 
@@ -115,7 +139,11 @@ body {
     border-bottom-width: 3px;
     border-bottom-style: solid;
     border-bottom-color: black;
+<<<<<<< Updated upstream
     text-shadow: 10px 10px 15px black;
+=======
+    text-shadow:10px rebeccapurple
+>>>>>>> Stashed changes
 }
 
 .headd2 {
