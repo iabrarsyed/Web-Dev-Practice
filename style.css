@@ -47,8 +47,8 @@ body {
     margin-right: 50px;
     margin-bottom: 30px;
     margin-left: 20px; */
-    /* margin: 50px auto;
-    width: 1200px; */
+    margin: 50px auto;
+    /* width: 1200px; */
     /* padding: 10px 30px; */
     overflow-x: scroll;
     width: 500px;
@@ -69,6 +69,7 @@ body {
     width: 300px;
     height: 150px;
     box-shadow: -10px 10px 5px 5px gray;
+    margin-left: 100px;
 
 }
 
@@ -79,31 +80,33 @@ body {
     height: 200px;
     overflow: auto;
     box-shadow: -10px 10px 5px 5px gray;
+    margin-left: 1000px;
 }
 
 .cont {
     background-color: thistle;
-    margin: 50px auto;
+    /* margin: 50px auto; */
     padding: 30px;
     text-align: center;
-    text-align-last:auto;
+    /* text-align-last:auto; */
     text-transform:capitalize;
-    text-indent:100px;
-    word-spacing:5px;
-    letter-spacing:2px;
+    text-indent:50px;
+    word-spacing:3px;
+    letter-spacing:1px;
     line-height:20px;
 
 }
 
 .container1 {
     width: 500px;
-    height: 700px;
+    height: 300px;
     /* border-top-left-radius: 5px 5px 10px 15px green;
     border-top-right-radius: 5px 5px 10px 15px green;
     border-bottom-left-radius: 5px 5px 10px 15px green;
     border-bottom-right-radius: 5px 5px 10px 15px green; */
     box-shadow: -5px 5px 5px 5px gray;
     overflow: auto;
+    outline: dotted 4px blue;
 }
 
 
