@@ -115,6 +115,7 @@ body {
     border-bottom-width: 3px;
     border-bottom-style: solid;
     border-bottom-color: black;
+    text-shadow: 10px 10px 15px black;
 }
 
 .headd2 {
