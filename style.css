@@ -139,11 +139,7 @@ body {
     border-bottom-width: 3px;
     border-bottom-style: solid;
     border-bottom-color: black;
-<<<<<<< Updated upstream
-    text-shadow: 10px 10px 15px black;
-=======
-    text-shadow:10px rebeccapurple
->>>>>>> Stashed changes
+    text-shadow: 5px 5px 5px gray, -5px -5px 5px black;
 }
 
 .headd2 {
