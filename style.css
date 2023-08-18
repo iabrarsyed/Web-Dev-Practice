@@ -1,12 +1,13 @@
 body {
     background-color: gainsboro;
+    background: url(images/photo-1690040158054-04a19549b43e.avif) no-repeat top center;
+    background-size: cover;
 }
 
 .head {
     /* border: 5px solid red; */
-    border-bottom-width: 3px;
-    border-bottom-style: solid;
-    border-bottom-color: black;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
     width: 170px;
     height: 40px;
     margin: 50px auto;
@@ -103,7 +104,7 @@ body {
     /* list-style-type: circle;
     list-style-position:inside;
     list-style-image: url(images/right-arrow-outline.png); */
-    list-style: circle inside url(images/icons8-arrow-24.png);
+    list-style: inside url(images/icons8-arrow-24.png);
 }
 
 .cont {
