@@ -1,8 +1,10 @@
 body {
     background-color: gainsboro;
-    background: url(images/photo-1690040158054-04a19549b43e.avif) no-repeat top center;
+    background: url(images/photo-1690040158054-04a19549b43e.avif) no-repeat center;
     background-size: cover;
     /* background-origin: padding-box; */
+    background-attachment: fixed;
+
 }
 
 .head {
@@ -10,10 +12,19 @@ body {
     text-decoration-line: underline;
     text-decoration-style: wavy;
     text-decoration-color: blue ;
-    width: 170px;
-    height: 40px;
-    margin: 50px auto;
+    /* width: 170px; */
+    /* height: 40px; */
+    /* margin: 50px auto; */
+
+    /* background clip */
     color: springgreen;
+    font-size:70px;
+    font-family: sans-serif;
+    color:transparent;
+    background: url(images/photo-1661956602153-23384936a1d3.avif) no-repeat;
+    -webkit-background-clip:text;
+
+
     /* border-top: 5px double blue;
         border-right: 3px dotted red;
         border-bottom: 10px ridge green;
@@ -109,6 +120,7 @@ body {
     list-style-position:inside;
     list-style-image: url(images/right-arrow-outline.png); */
     list-style: inside url(images/icons8-arrow-24.png);
+    display:list-item;
 }
 
 .cont {
