@@ -6,6 +6,18 @@ body {
     background-attachment: fixed;
 
 }
+.colour1 {
+    color: rgb(125, 95, 255);
+    background-color: rgba(200, 255, 100, 1);
+}
+.colour2 {
+    color:#d8bfd8;
+    background-color:#1E90FF;
+}
+.colour3 {
+    color: hsl(155, 90%, 40%);
+    background-color: hsla(260, 60%, 30%, 1);
+}
 
 .head {
     /* border: 5px solid red; */
@@ -52,11 +64,12 @@ body {
     font-size: x-large;
     outline: 3px solid blue;
     outline-offset: 10px;
+    color: rgba(200, 100, 255, 0.9);
 
 }
 
 .box1 {
-    border: 5px ridge deepskyblue;
+    border: 5px ridge rgb(0, 191, 255);
     /* margin-top: 10px;
     margin-right: 50px;
     margin-bottom: 30px;
@@ -102,7 +115,7 @@ body {
 .boxx {
     border: 5px solid gray;
     outline: 3px ridge red;
-    background-color: thistle;
+    background-color: #d8bfd8;
     margin: 50px auto;
     font-size: 20px;
     /* text-decoration-line:line-through ;
@@ -113,7 +126,7 @@ body {
 }
 .listt, li {
     border: 3px ridge firebrick;
-    background-color:thistle;
+    background-color:hsl(300, 24%, 80%);
     font-size: 20px;
     margin: 10px;
     /* list-style-type: circle;
