@@ -9,14 +9,17 @@ body {
 .colour1 {
     color: rgb(125, 95, 255);
     background-color: rgba(200, 255, 100, 1);
+    cursor: crosshair;
 }
 .colour2 {
     color:#d8bfd8;
     background-color:#1E90FF;
+    cursor: help;
 }
 .colour3 {
     color: hsl(155, 90%, 40%);
     background-color: hsla(260, 60%, 30%, 1);
+    cursor: wait;
 }
 
 .head {
@@ -83,6 +86,7 @@ body {
     box-sizing: border-box;
     box-shadow: -10px 10px 5px 5px gray;
     text-decoration: double salmon line-through 1px;
+    cursor:alias;
 }
 
 .box2 {
@@ -99,7 +103,7 @@ body {
     box-shadow: -10px 10px 5px 5px gray;
     margin-left: 100px;
     text-decoration: solid salmon overline 2px;
-
+cursor: all-scroll;
 }
 
 .box3 {
@@ -111,6 +115,7 @@ body {
     box-shadow: -10px 10px 5px 5px gray;
     margin-left: 1000px;
     text-decoration: dashed salmon underline 2px;
+    cursor: pointer;
 }
 .boxx {
     border: 5px solid gray;
@@ -123,6 +128,7 @@ body {
     text-decoration-style:double;
     text-decoration-thickness: 1px; */
     text-decoration: dashed salmon underline 2px;
+    cursor: cell;
 }
 .listt, li {
     border: 3px ridge firebrick;
@@ -134,6 +140,7 @@ body {
     list-style-image: url(images/right-arrow-outline.png); */
     list-style: inside url(images/icons8-arrow-24.png);
     display:list-item;
+    cursor: progress;
 }
 
 .cont {
@@ -162,6 +169,7 @@ body {
     overflow: auto;
     outline: dotted 4px blue;
     margin: 50px auto;
+    cursor:grab ;
 }
 
 
