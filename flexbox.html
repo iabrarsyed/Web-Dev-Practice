@@ -32,12 +32,17 @@
             color: aliceblue;
             font-size: 20px;
             border-bottom: 3px solid #ffff;
+            text-shadow: 5px 5px 10px black;
+            /* text-decoration:underline  white wavy 5px; */
         }
 
         img {
-            width: 450px;
-            height: 400px;
-            margin: 5px;
+            width: 300px;
+            height: 300px;
+            margin: 10px;
+            box-shadow: 5px 5px 10px gray;
+            cursor: grab;
+            flex-basis: 400px;
         }
 
         .logo-img {
@@ -46,6 +51,46 @@
             border-radius: 50%;
             padding: 10px;
             margin: 10px;
+        }
+        .box {
+            border: 3px solid black;
+            width: 300px;
+            height: 300px;
+            margin: 10px;
+            box-shadow: 5px 5px 10px gray;
+            font-size: 20px;
+            text-align: center;
+        }
+        .box1 {
+            background-color: aqua;
+            order: 1;
+        }
+        .box2 {
+            background-color:aquamarine;
+            order: 4;
+            flex-grow: 2;
+        }
+        .box3 {
+            background-color:burlywood;
+            order: 3;
+        }
+        .box4 {
+            background-color:cadetblue;
+            flex-grow: 2;
+        }
+        .box5 {
+            background-color:yellowgreen;
+            order: 2;
+        }
+        .box6 {
+            background-color:wheat;
+        }
+        .box7 {
+            background-color:turquoise;
+        }
+        .box8 {
+            background-color: thistle;
+            flex-shrink: 3;
         }
     </style>
 </head>
@@ -79,6 +124,15 @@
         <img src="https://i.natgeofe.com/n/dd8843a2-8ec3-4357-9a76-6d20d876209a/01-hyenas-nationalgeographic_1742911_16x9.jpg"
             alt="">
         <img src="https://www.zameen.com/blog/wp-content/uploads/2019/05/image-4-9-1024x640.jpg" alt="">
+
+        <div class="box1 box">box1</div>
+        <div class="box2 box">box2</div>
+        <div class="box3 box">box3</div>
+        <div class="box4 box">box4</div>
+        <div class="box5 box">box5</div>
+        <div class="box6 box">box6</div>
+        <div class="box7 box">box7</div>
+        <div class="box8 box">box8</div>
     </div>
 </body>
 
