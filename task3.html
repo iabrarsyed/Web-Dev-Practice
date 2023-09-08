@@ -23,7 +23,7 @@
         }
 
         .container {
-            max-width: 700px;
+            max-width: 650px;
             width: 100%;
             background-color: rgba(0, 0, 0, 0.4);
             padding: 25px 30px;
@@ -36,6 +36,7 @@
             font-weight: 600;
             text-align: center;
             border-bottom: 2px solid white;
+            color: white;
         }
 
         .container form .user-details {
@@ -44,10 +45,34 @@
             justify-content: space-between;
             padding: 10px 0;
         }
+        label {
+            color: white;
+        }
 
         .input-box input {
             height: 35px;
             width: 100%;
+            padding: 3px;
+            margin: 5px;
+            border-radius: 5px;
+        }
+        .gender  {
+            margin:3px 0;
+            padding: 3px 0 3px 0;
+            font-size: 20px;
+            font-weight: 600;
+            border-bottom: 2px solid white;
+        }
+        .gender-details input{
+            margin:5px 5px 30px 5px;
+            /* padding: 5px; */
+        }
+        button {
+            /* margin: 20px; */
+            padding: 10px;
+            width: 100%;
+            border-radius: 5px;
+            background-color: #71b7e6;
         }
     </style>
 </head>
@@ -84,16 +109,16 @@
                 <div class="gender">
                     <label for="">Gender</label>
                 </div>
-                <div class="gender-details">
-                    <input type="radio" name="gender" id="male">
-                    <label for="male">Male</label>
-                    <input type="radio" name="gender" id="female">
-                    <label for="female">Female</label>
-                    <input type="radio" name="gender" id="other">
-                    <label for="other">Other</label>
-                </div>
-                <button type="submit">Register</button>
             </div>
+            <div class="gender-details">
+                <input type="radio" name="gender" id="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female">
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="other">
+                <label for="other">Other</label>
+            </div>
+            <button type="submit">Register</button>
         </form>
     </div>
 </body>
