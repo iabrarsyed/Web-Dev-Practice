@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 150vh;
+            flex-wrap: wrap;
+            background: url(https://blog.dormakaba.com/tachyon/2021/06/Blog_Post-picture_03-21.jpg);
+            background-size: cover;
+        }
+        .container form .user-details{
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            flex-wrap: wrap;
+            width: 500px;
+            max-width: 800px;
+            color: white;
+        }
+        .logoimg {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+        .title {
+            font-size: 25px;
+            color: white;
+            text-align:center ;
+            position: relative;
+            right: 25px;
+
+        }
+        .user-details input {
+            width: 500px;
+            height: 28px;
+            border-radius: 5px;
+            border: none;
+            padding: 5px;
+        }
+        .address-details input, select {
+            width: 225px;
+            height: 28px;
+            border-radius: 5px;
+            border: none;
+            padding: 5px;
+        }
+        .address-details .state, .zip, .country{
+            position: relative;
+            bottom: 116.5px;
+            left: 273.5px;
+        }
+        span {
+            color: red;
+            font-size: 25px;
+
+        }
+        .details {
+            opacity: 60%; 
+            font-size: small;
+            margin: 0px 0px 15px 0px;
+            padding: 0px 0px 0px 5px;
+            color: white;
+        }
+        .work-details .range{
+            width: 500px;
+            height: 10px;
+        }
+        .work-details {
+            margin: -100px 0px 0px 0px;
+            color: white;
+        }
+        .materials {
+            margin: -30px 0px 0px 0px;
+        }
+        .work-details .materials, .radio {
+            padding: 5px 0px 5px 0px;
+        }
+        .need {
+            margin: 20px 0px 0px 0px;
+        }
+        .work-details .need, .checkbox{
+            padding: 5px 0px 5px 0px;
+        }
+        .comments {
+            margin: 20px 0px 10px 0px;
+        }
+        .feed {
+            margin-right: 10px
+        }
+        .details-range0 {
+            display: flex;
+            justify-content: start;
+        }
+        .details-range1 {
+            display: flex;
+            justify-content: end;
+            position: relative;
+            bottom: 33px;
+            right: 65px;
+        }
+        .more {
+            margin-right: 10px
+        }
+        .feedback {
+            padding: 5px;
+        }
+        .btn-submit {
+            width: 25%;
+            height: 30px;
+            border-radius: 10px;
+            border: none;
+            background-color: rgb(255, 197, 5);
+            position: relative;
+            left: 195px;
+            top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">
+            <div class="logo"><img class="logoimg" src="https://img.freepik.com/free-vector/excavator-construction-logo-with-buildings_23-2148657768.jpg?w=2000" alt=""></div>
+            <h2>On-site Inquiries</h2>
+        </div>
+        <form action="">
+            <div class="user-details">
+                <div class="name">
+                    <label for="">Name<span>*</span></label>
+                </div>
+                <input type="text" name="" id="" required>
+                <div class="address">
+                    <label for="">Where are you?<span>*</span></label>
+                </div>
+                <input type="text" name="" id="" required>
+                <div class="details">Street Address</div>
+                <input type="text" name="" id="" required>
+                <div class="details">Address Line 2</div>
+            </div>
+            <div class="address-details">
+                <input type="text" name="" id="" required>
+                <div class="details ">City</div>
+                <input type="text" name="" id="" required>
+                <div class="details ">State/Region/Province</div>
+                <input class="state" type="number" name="" id="" required>
+                <div class="details zip">Postal/Zip Code</div>
+                <select name="" id="" class="country">
+                    <option value="">-Select-</option>
+                    <option value="">India</option>
+                </select>
+                <div class="details country">Country</div>
+            </div>
+            <div class="work-details">
+                <div class="progress">
+                    <label for="">What's the progress status?<span>*</span></label>
+                </div>
+                <input class="range" type="range" min="0" max="100" value="0" name="" id="">
+                <div class="details details-range0">0</div>
+                <div class="details details-range1">100</div>
+                <div class="materials">
+                    <label for="">Do you need any more materials?<span>*</span></label>
+                </div>
+                <div class="radio"><input class="more" type="radio" name="materials" id="yes"><label for="yes">Yes</label></div>
+                <div class="radio"><input class="more" type="radio" name="materials" id="no"><label for="no">No</label></div>
+                <div class="need">
+                    <label for="">What more do you need?</label>
+                </div>
+                <div class="checkbox"><input class="feed" type="checkbox" name="need" id="sand"><label for="sand">Sand</label></div>
+                <div class="checkbox"><input class="feed" type="checkbox" name="need" id="bricks"><label for="bricks">Bricks</label></div>
+                <div class="checkbox"><input class="feed" type="checkbox" name="need" id="rods"><label for="rods">Rods</label></div>
+                <div class="checkbox"><input class="feed" type="checkbox" name="need" id="others"><label for="others">Other</label></div>
+                <div class="comments">
+                    <label for="">Any other comments?</label>
+                </div>
+                <textarea class="feedback" name="" id="" cols="73" rows="7"></textarea>
+                <button class="btn-submit" type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
