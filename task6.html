@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            height: 100vh;
+            width: 300vh;
+            max-width: 700px;
+        }
+
+        .container {
+            height: 600px;
+            width: 500px;
+        }
+
+        .title {
+            font-size: 17px;
+            padding: 10px 10px 10px 0px;
+            border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+            margin-bottom: 15px;
+            color: gray;
+        }
+
+        .details {
+            font-size: 12px;
+            opacity: 60%;
+            margin-right: 67px;
+            padding: 10px;
+
+        }
+
+        .student-details input {
+            width: 150px;
+            border: 1px solid gray;
+            padding: 3px;
+        }
+
+        .birth {
+            margin-right: 15px;
+        }
+
+        .dateofbirth {
+            margin: 20px 0px 20px 0px;
+        }
+
+        .dateofbirth select {
+            margin-left: 8px;
+            width: 106px;
+        }
+
+        .date {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            font-size: 12px;
+            opacity: 60%;
+            margin-top: -20px;
+            margin-bottom: 30px;
+        }
+        .year {
+            margin-left: 85px;
+            margin-right: 35px;
+        }
+
+        .month {
+            margin-left: 105px;
+        }
+
+        .day {
+            margin-left: 25px;
+        }
+
+        .gender {}
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">
+            <h3>Admissions Form</h3>
+            <p>Enter your admission information below</p>
+        </div>
+        <form action="">
+            <div class="student-details">
+                <div class="name">
+                    <label for="">Name<span style="color: red;">*</span></label>
+                    <div>
+                        <input type="text" name="" id="">
+                        <input type="text" name="" id="">
+                        <input type="text" name="" id="">
+                    </div>
+                    <span class="details">First Name</span>
+                    <span class="details">Middle Initial</span>
+                    <span class="details">Last Name</span>
+                </div>
+            </div>
+            <div class="dateofbirth">
+                <label for="" class="birth">Birth Date<span style="color: red;">*</span></label>
+                <select name="" id="" required>
+                    <option value="">Select</option>
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                    <option value="">5</option>
+                    <option value="">6</option>
+                    <option value="">7</option>
+                    <option value="">8</option>
+                    <option value="">9</option>
+                    <option value="">10</option>
+                    <option value="">11</option>
+                    <option value="">12</option>
+                    <option value="">13</option>
+                    <option value="">14</option>
+                    <option value="">15</option>
+                    <option value="">16</option>
+                    <option value="">17</option>
+                    <option value="">18</option>
+                    <option value="">19</option>
+                    <option value="">20</option>
+                    <option value="">21</option>
+                    <option value="">22</option>
+                    <option value="">23</option>
+                    <option value="">24</option>
+                    <option value="">25</option>
+                    <option value="">26</option>
+                    <option value="">27</option>
+                    <option value="">28</option>
+                    <option value="">29</option>
+                    <option value="">30</option>
+                    <option value="">31</option>
+                </select>
+                <select name="" id="" required>
+                    <option value="">Select</option>
+                    <option value="">Jan</option>
+                    <option value="">Feb</option>
+                    <option value="">Mar</option>
+                    <option value="">Apr</option>
+                    <option value="">May</option>
+                    <option value="">Jun</option>
+                    <option value="">Jul</option>
+                    <option value="">Aug</option>
+                    <option value="">Sep</option>
+                    <option value="">Oct</option>
+                    <option value="">Nov</option>
+                    <option value="">Dec</option>
+                </select>
+                <select name="" id="" required>
+                    <option value="">Select</option>
+                    <option value="">2023</option>
+                    <option value="">2022</option>
+                    <option value="">2021</option>
+                    <option value="">2020</option>
+                    <option value="">2019</option>
+                    <option value="">2018</option>
+                    <option value="">2017</option>
+                    <option value="">2016</option>
+                    <option value="">2015</option>
+                    <option value="">2014</option>
+                    <option value="">2013</option>
+                    <option value="">2012</option>
+                    <option value="">2011</option>
+                    <option value="">2010</option>
+                    <option value="">2009</option>
+                    <option value="">2008</option>
+                    <option value="">2007</option>
+                    <option value="">2006</option>
+                    <option value="">2005</option>
+                    <option value="">2004</option>
+                    <option value="">2003</option>
+                    <option value="">2002</option>
+                    <option value="">2001</option>
+                    <option value="">2000</option>
+                    <option value="">1999</option>
+                </select>
+            </div>
+            <div class="date">
+                <p class="day">Day</p>
+                <p class="month">Month</p> 
+                <p class="year">Year</p>
+            </div>
+            <div class="gender">
+                <label for="">Gender<span style="color: red;">*</span></label>
+                <div class="gender-details">
+                    <div>
+                        <input type="radio" name="" id=""><label for="">Male</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="" id=""><label for="">Female</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="" id=""><label for="">Decline to answer</label>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="latino">
+                <label for="">Are you Hispanic or Latino?<span style="color: red;">*</span></label>
+                <div> <input type="radio" name="" id=""><label for="">Male</label></div>
+                <div><input type="radio" name="" id=""><label for="">Female</label></div>
+                <div><input type="radio" name="" id=""><label for="">Decline to answer</label></div>
+            </div>
+            <div class="race">
+                <label for="">Race:<span style="color: red;">*</span></label>
+                <div>
+                    <input type="checkbox" name="" id=""><label for="">American Indian/Alaskan Native</label>
+                </div>
+                <div><input type="checkbox" name="" id=""><label for="">Asian</label></div>
+                <div><input type="checkbox" name="" id=""><label for="">Black</label></div>
+                <div><input type="checkbox" name="" id=""><label for="">Native Hawaiian/Other Pacific Islander</label>
+                </div>
+                <div><input type="checkbox" name="" id=""><label for="">White</label></div>
+                <div> <input type="checkbox" name="" id=""><label for="">Decline to Answer</label></div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
