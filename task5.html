@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=!, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: sans-serif;
+    }
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap:wrap ;
+      height: 100vh;
+      background-image: linear-gradient(180deg, #de0dde,aqua 80%);
+    }
+    .container {
+      border: 1px solid  #de0dde,aqua;
+      text-align: center;
+      background-color: rgba(128, 128, 128, 0.3);
+      height: 500px;
+
+    }
+    .title {
+      font-size: 18px;
+      margin: 20px;
+      padding: 5px;
+      color: aliceblue;
+      border-bottom: 1px solid white;
+    }
+    .container form .user-details, .selection {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      max-width: 600px;
+      width: 400px;
+    }
+    .user-details input {
+      width: 350px;
+      padding: 10px;
+      margin: 8px;
+      border: none;
+      border-radius: 5px;
+    }
+    .selection input {
+      margin: 7px;
+      padding: 5px;
+      margin-left: 12px;
+      display: inline-block;
+    }
+    .selection  {
+      font-size: 12px;
+      padding: 10px 10px 20px 10px;
+    }
+    .selection .lorem{
+      color: aliceblue;
+
+    }
+    .button {
+      width: 150%;
+    }
+    .button input {
+      width: 25%;
+      padding: 5px;
+      border: none;
+      border-radius: 5px;
+      background-image:linear-gradient(180deg, green, rgb(8, 255, 8)) ;
+      color: aliceblue;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="title">
+      <h2>Registration Form</h2>
+    </div>
+    <form action="">
+      <div class="user-details">
+        <div class="f-control">
+          <input type="text" name="" id="" placeholder="First name">
+        </div>
+        <div class="f-control">
+          <input type="text" name="" id="" placeholder="Last name">
+        </div>
+        <div class="f-control">
+          <input type="email" name="" id="" placeholder="Email">
+        </div>
+        <div class="f-control">
+          <input type="password" name="" id="" placeholder="Password">
+        </div>
+
+      </div>
+      <div class="selection">
+        <div>
+          <input type="checkbox" name="" id="">
+          <span class="lorem">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis rem labore aut quaerat quasi sit
+            magnam, dolor nobis, quos repellendus nisi ex earum dolorem cum.</span>
+        </div>
+        <div>
+          <input type="checkbox" name="" id="">
+          <span class="lorem">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque repellat officia aperiam molestias
+            aliquid explicabo magnam nobis. Aperiam, odit. Quia dolores ea architecto consectetur mollitia.</span>
+
+        </div>
+      </div>
+        <div class="button">
+          <input type="button" value="Register" name="" id="">
+        </div>
+    </form>
+  </div>
+</body>
+
+</html>
