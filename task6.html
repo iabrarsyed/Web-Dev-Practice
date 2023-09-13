@@ -19,13 +19,15 @@
             align-items: center;
             flex-wrap: wrap;
             height: 100vh;
-            width: 300vh;
-            max-width: 700px;
+            max-width: 100rem;
+            width:100%;
+            
         }
 
         .container {
             height: 600px;
-            width: 500px;
+            max-width: 500px;
+            width: 100%;
         }
 
         .title {
@@ -198,13 +200,13 @@
                 <label for="">Gender<span style="color: red;">*</span></label>
                 <div class="gender-details">
                     <div>
-                        <input type="radio" name="" id=""><label for="">Male</label>
+                        <input type="radio" name="gender" id="male"><label for="male">Male</label>
                     </div>
                     <div>
-                        <input type="radio" name="" id=""><label for="">Female</label>
+                        <input type="radio" name="gender" id="female"><label for="female">Female</label>
                     </div>
                     <div>
-                        <input type="radio" name="" id=""><label for="">Decline to answer</label>
+                        <input type="radio" name="gender" id="decline"><label for="decline">Decline to answer</label>
                     </div>
 
                 </div>
@@ -212,9 +214,9 @@
             </div>
             <div class="latino">
                 <label for="">Are you Hispanic or Latino?<span style="color: red;">*</span></label>
-                <div> <input type="radio" name="" id=""><label for="">Male</label></div>
-                <div><input type="radio" name="" id=""><label for="">Female</label></div>
-                <div><input type="radio" name="" id=""><label for="">Decline to answer</label></div>
+                <div> <input type="radio" name="latino" id="yes"><label for="yes">Yes</label></div>
+                <div><input type="radio" name="latino" id="no"><label for="no">No</label></div>
+                <div><input type="radio" name="latino" id="other"><label for="other">Decline to answer</label></div>
             </div>
             <div class="race">
                 <label for="">Race:<span style="color: red;">*</span></label>

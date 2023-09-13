@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            height: 100vh;
+            background-size: cover;
+            background: url(https://images.unsplash.com/photo-1446569971295-057569541991?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1812&q=80) no-repeat center bottom ;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 100%;
+            text-align: center;
+            background-color: rgba(248, 211, 211, 0.744);
+            height: 650px;
+        }
+
+        .title h2 {
+            font-size: 35px;
+            font-weight: 100;
+            color: rgb(68, 68, 240);
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        .title {
+            margin: 20px 0px 0px 0px;
+            text-align: center;
+            border-bottom: 1px solid rgba(68, 68, 240, 0.5);
+            width: 100%;
+        }
+        .title p {
+            font-size: 15px;
+            color: rgb(68, 68, 240);
+            padding: 5px;
+        }
+
+        .venue {
+            margin: 5px;
+            color: rgb(68, 68, 240);
+            padding: 15px;
+        }
+
+        .reunion-details {
+            text-align: start;
+            padding: 5px;
+            margin: 10px;
+        }
+
+        .reunion-details .join {
+            margin: 10px 0px 30px 0px;
+            color: rgb(68, 68, 240);
+        }
+
+        .reunion-details .join input {
+            border-color: rgb(68, 68, 240);
+            background-color: rgba(248, 211, 211, 0.544);
+            margin-left: 30px;
+        }
+
+        .reunion-details .name {
+            text-align: end;
+            margin: 10px 86px 30px 10px;
+            color: rgb(68, 68, 240);
+        }
+
+        .reunion-details .name input {
+            border: none;
+            margin: 0px 30px 0px 30px;
+            background-color: rgba(248, 211, 211, 0);
+            padding: 10px;
+            border-bottom: 1px solid rgb(68, 68, 240);
+        }
+        .reunion-details .phone {
+            text-align:center;
+            color: rgb(68, 68, 240);
+            margin-left: 50px;
+            margin-right: 30px;
+        }
+        .reunion-details .phone input {
+            border: none;
+            border-bottom: 1px solid rgb(68, 68, 240);
+            background-color: rgba(248, 211, 211, 0);
+            width: 425px;
+            padding: 10px;
+            margin-left: 35px;
+        }
+        .reunion-details .meal {
+            text-align: start;
+            margin: 40px 0px 30px 27px;
+            color: rgb(68, 68, 240);
+        }
+        .reunion-details .meal input {
+            border-color: rgb(68, 68, 240);
+            background-color: rgba(248, 211, 211, 0);
+            margin-left: 30px;
+        }
+        .reunion-details .games{
+            margin: 0px 20px 30px 20px;
+
+            color: rgb(68, 68, 240);
+        }
+        .reunion-details .games input{
+            margin: 0px 0px 0px 74px;
+            color: rgb(68, 68, 240);
+        }
+        .reunion-details .questions{
+            margin: 50px 20px 20px 67px;
+            text-align: start;
+            color: rgb(68, 68, 240);
+        }
+        .reunion-details .questions textarea{
+            margin: 0px 0px 0px 77px;
+            border: none;
+            border-bottom: 1px solid rgb(68, 68, 240) ;
+            background-color: rgba(248, 211, 211, 0);
+        }
+        button {
+            width: 20%;
+            padding: 10px;
+            background-color: rgb(68, 68, 240);
+            color: #fff;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 17px;
+            border: none;
+        }
+        span {
+            color: red;
+            font-size: 18px
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">
+            <h2>Reunion Form</h2>
+            <p>
+                Time to rekindle some good ol' memories! See you soon!
+            </p>
+        </div>
+        <div class="venue">
+            <p>Date: <b>25-06-2023</b> | Time: <b>6pm onwards</b> | Address: <b>Our garage</b></p>
+        </div>
+        <form action="">
+            <div class="reunion-details">
+                <div class="join">
+                    <label for="">Would you like to join us?<span>*</span></label>
+                    <input required type="radio" name="join" id="yes"><label for="yes">Yes</label>
+                    <input required type="radio" name="join" id="no"><label for="no">No</label>
+                </div>
+                <div class="name">
+                    <label for="">Name<span>*</span></label>
+                    <input  type="text" name="" id="" required>
+                    <input  type="text" name="" id="" required>
+                </div>
+                <div class="phone">
+                    <label for="">Phone<span>*</span></label>
+                    <input type="number" name="" id="" required>
+                </div>
+                <div class="meal">
+                    <label for="">Your Meal Preference<span>*</span></label>
+                    <input type="radio" name="meal" id="non-veg" required><label for="non-veg">Non-Vegetarian</label>
+                    <input type="radio" name="meal" id="veg" required><label for="veg">Vegetarian</label>
+                </div>
+                <div class="games">
+                    <label for="">What kind of games are <br> you interested in?</label>
+                    <input type="checkbox" name="games" id="in"><label for="in">Indoor</label>
+                    <input type="checkbox" name="games" id="board"><label for="board">Board</label>
+                    <input type="checkbox" name="games" id="ball"><label for="ball">Ball games</label>
+                    <input type="checkbox" name="games" id="out"><label for="out">Outdoor</label>
+                </div>
+                <div class="questions">
+                    <label for="">Do you have any <br> questions?</label>
+                    <textarea name="" id="" cols="62" rows="1"></textarea>
+                </div>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
