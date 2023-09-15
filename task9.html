@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            height: 150vh;
+            background-color: rgb(169, 193, 253);
+        }
+
+        .container {
+            max-width: 620px;
+            width: 100%;
+            max-height: 910px;
+            height: 100%;
+            background-color: white;
+            text-align: center;
+        }
+
+        .form {
+            padding: 0px 20px 0px 20px;
+        }
+
+        img[alt="maps"] {
+            width: 125px;
+            height: 75px;
+        }
+
+        .logo {
+            display: block;
+            background-color: #4285f4;
+            height: 75px;
+        }
+
+        .title {
+            padding: 10px;
+            margin-bottom: -10px;
+            color: #4285f4;
+        }
+
+        .title1 {
+            display: flex;
+            justify-content: start;
+            flex-wrap: wrap;
+            font-size: larger;
+            padding: 15px 0px 10px 10px;
+            color: #4285f4;
+            border-bottom: 1px solid #4285f4;
+            margin-top: 20px
+        }
+
+        span {
+            color: red;
+            font-size: 17px;
+        }
+
+        .user-details {
+            margin: 10px 0px;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .user-details .name input {
+            margin-left: 77px;
+        }
+
+        .user-details .email input {
+            margin-left: 77px;
+        }
+
+        .details {
+            display: block;
+            text-align: center;
+            font-size: 14px;
+            font-weight: bold;
+            opacity: 60%;
+            margin-right: 73px;
+            color: #2e61f1;
+        }
+
+        .details1 {
+            display: block;
+            text-align: center;
+            font-size: 14px;
+            font-weight: bold;
+            opacity: 60%;
+            color: #2e61f1;
+        }
+
+        .details2 {
+            display: block;
+            text-align: start;
+            margin-left: 16px;
+            font-size: 14px;
+            font-weight: bold;
+            opacity: 60%;
+            color: #2e61f1;
+        }
+        .details3 {
+            display: block;
+            text-align: start;
+            margin-left:8px;
+            font-size: 14px;
+            font-weight: bold;
+            opacity: 60%;
+            color: #2e61f1;
+        }
+        .details4 {
+            display: block;
+            text-align: start;
+            margin-left: 8px;
+            font-size: 14px;
+            font-weight: bold;
+            opacity: 60%;
+            color: #2e61f1;
+        }
+
+        .user-details label {
+            padding: 0px 10px;
+            color: #2e61f1;
+            margin-right: 40px;
+
+        }
+
+        .user-details input {
+            padding: 7px;
+            margin: 7px 0px;
+            width: 390px;
+            border-radius: 5px;
+            border: 1px solid gray;
+        }
+
+        .order-details {
+            display: flex;
+            justify-content: end;
+            align-items: end;
+            flex-wrap: wrap;
+            margin-top: 15px
+        }
+
+        .order-details label {
+            padding: 0px 10px;
+            color: #2e61f1;
+
+        }
+
+        .order-details input {
+            padding: 7px;
+            margin: 8px 0px;
+            border-radius: 5px;
+            border: 1px solid gray;
+        }
+
+        .destination input {
+            width: 390px;
+        }
+
+        .address-line input {
+            margin-left: 210px;
+            width: 390px;
+        }
+
+        .destination label {
+            margin-right: 14px;
+        }
+
+        .order-id input {
+            width: 390px;
+            margin-left: 98px;
+        }
+
+        .city-state input {
+            width: 190px;
+            margin-left: 10px;
+            margin-top: 15px;
+        }
+
+        .code-country input {
+            width: 190px;
+            margin-right: 10px;
+            margin-top: 15px;
+        }
+
+        select {
+            width: 190px;
+            padding: 7px;
+            border-radius: 5px;
+            border: 1px solid gray;
+            position: relative;
+            bottom: 7px;
+            color:#4285f4;
+        }
+        .order-date {
+            display: flex;
+            justify-content: start;
+            align-items: end;
+            flex-wrap: wrap;
+            margin-top: 15px
+        }
+        .order-date label {
+            padding: 0px 10px;
+            color: #2e61f1;
+        }
+        .order-date input {
+            padding: 7px;
+            margin: 8px 30px;
+            width: 190px;
+            border-radius: 5px;
+            color: #4285f4;
+            border: 1px solid gray;
+        }
+        button {
+            margin: 30px;
+            padding: 10px;
+            width: 120px;
+            font-size: 15px;
+            border-radius: 4px;
+            border: none;
+            color: white;
+            background-color:#4285f4;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="images/maps.png" alt="maps">
+        </div>
+        <div class="title">
+            <h3>Order/Delivery Tracking</h3>
+            <p>Trace your order</p>
+        </div>
+        <div class="form">
+            <form action="">
+                <div class="title1">
+                    <h4>Personal Information</h4>
+                </div>
+                <div class="user-details">
+                    <div class="name">
+                        <label for="">Name<span>*</span></label>
+                        <input type="text" name="" id="" required>
+                    </div>
+                    <div class="email">
+                        <label for="">Email<span>*</span></label>
+                        <input type="email" name="" id="" required>
+                    </div>
+                    <div class="number">
+                        <label for="">Contact Number<span>*</span></label>
+                        <input type="number" name="" id="" required>
+                        <div class="details">As per your order</div>
+                    </div>
+                </div>
+                <div class="title1">
+                    <h4>Order Information</h4>
+                </div>
+                <div class="order-details">
+                    <div class="order-id">
+                        <label for="">Order ID<span>*</span></label>
+                        <input type="text" name="" id="" required>
+                    </div>
+                    <div class="destination">
+                        <label for="">Delivery Destination<span>*</span></label>
+                        <input type="text" name="" id="" required>
+                        <div class="details">Street Address</div>
+                    </div>
+                    <div class="address-line">
+                        <input type="text" name="" id="" required>
+                        <div class="details">Address Line 2</div>
+                    </div>
+                    <div class="city-state">
+                        <!-- <input type="text" name="" id="" required> -->
+                        <input type="text" name="" id="" required>
+                        <div class="details2">City</div>
+                    </div>
+                    <div class="city-state">
+                        <!-- <input type="text" name="" id="" required> -->
+                        <input type="text" name="" id="" required>
+                        <div class="details1">State/Province/Region</div>
+                    </div>
+                    <div class="code-country">
+                        <input type="number" name="" id="" required>
+                        <div class="details3">Postal/Zip Code</div>
+                    </div>
+                    <div class="code-country">
+                        <select name="" id="" required>
+                            <option value="">-Select-</option>
+                            <option value="">Kashmir</option>
+                        </select>
+                        <div class="details4">Country</div>
+                    </div>
+                </div>
+                <div class="order-date">
+                    <label for="">When did you place <br> your order?<span>*</span></label>
+                    <input type="date" name="" id="" required>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
