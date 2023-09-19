@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            width: 100vw;
+            height: 100vh;
+            background:linear-gradient(orange,aqua);
+            background-size: cover;
+            position: relative;
+        }
+        .box {
+            width: 100px;
+            height: 100px;
+            background: linear-gradient(90deg, rgb(224, 136, 11), rgb(10, 227, 10),rgb(23, 223, 223));
+            border-radius: 50%;
+            position: absolute;
+            animation-name: top-to-bottom;
+            animation: top-to-bottom 3s infinite alternate-reverse ease-in-out ;
+        }
+        .box1 {
+            width: 100px;
+            height: 100px;
+            background: linear-gradient(90deg, rgb(224, 136, 11), rgb(10, 227, 10),rgb(23, 223, 223));
+            border-radius: 50%;
+            position: absolute;
+            animation-name: left-to-right;
+            animation: left-to-right 3s infinite alternate-reverse ease-in-out ;
+        }
+
+        @keyframes top-to-bottom {
+            from{
+                left: 0;
+                top: 0;
+            }
+            to{
+                top: 600px;
+                left: 0;
+            }
+        }
+        @keyframes left-to-right {
+            from{
+                left: 0;
+                top: 0;
+            }
+            to{
+                top:0;
+                left:1430px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"></div>
+        <div class="box1"></div>
+    </div>
+</body>
+</html>
