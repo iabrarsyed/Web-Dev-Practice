@@ -20,20 +20,25 @@
 
         .navbar {
             width: 100vw;
-            height: 70px;
-            background-color: white;
+            height: 60px;
+            background-color: lightseagreen;
+
             position: relative;
         }
 
         .menu {
             display: flex;
             justify-content:space-evenly;
+            height:70px ;
             align-items: center;
             position: relative;
         }
 
         .menu li {
             list-style: none;
+        }
+        li a:hover{
+                background-color: lightgreen;
         }
 
         .menu li a {
@@ -42,6 +47,16 @@
         }
         .menu li ul {
             display: none;
+        }
+
+        .container .navbar .services{
+            position: absolute;
+            top:90% ;
+            left: 56%;
+        }
+
+        .menu li:hover ul{
+            display: block;
         }
 
     </style>
@@ -54,7 +69,7 @@
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Services</a>
-                    <ul>
+                    <ul class="services">
                         <li><a href="#">Web development</a></li>
                         <li><a href="#">App development</a></li>
                         <li><a href="#">Full stack developer</a></li>
