@@ -6,23 +6,21 @@
     font-weight: 100;
 }
 body {
-    height: 10vh;
+    height: 100vh;
     width: 100%;
-    background-color: #131921;
+    max-width: 1600px;
     color: white;
+    background-image: linear-gradient(180deg, #d41a9c , #fff 80%);
+
 }
 span {
     font-weight:750;
 }
-/* .fa-solid {
-    position: relative;
-    top: 10px ;
-    right: 20px;
-} */
 .logo {
     width: 125px;
     height: 45px;
     margin: 10px;
+    margin-right: 20px;
 }
 a {
     text-decoration: none;
@@ -34,9 +32,11 @@ a {
     justify-content:space-between;
     align-items: center; 
     flex-wrap: wrap;
+    background-color: #131921;
     position: static;
-    width: 95%;
+    width: 100%;
     margin-top: -10px;
+    margin-bottom: 10px;
 }
 .search input{ 
     width:550px;
@@ -53,7 +53,7 @@ a {
 }
 .categories {
     width: 55px;
-    padding: 14px 8px 13px 6.5px ;
+    padding: 14.5px 8px 13px 6.5px ;
     position: relative;
     left: 4px;
     top: 1px;
@@ -98,6 +98,7 @@ a {
     align-items: center;
     margin-top: 25px;
     margin-left: -25px;
+    margin-bottom: 10px;
 }
 .flag {
     width: 30px;
@@ -112,15 +113,18 @@ a {
     font-weight: bolder;
 }
 .account {
+    position: relative;
+    left: -30px;
     margin-top: 20px;
-    margin-left: -20px;
 }
 .orders {
+    position: relative;
+    left: -30px;
     margin-top: 20px;
 }
 .cart h3 {
     position: relative;
-    left: 40px;
+    left: -10px;
     font-size: 20px;
     font-weight:600;
     top: -5px;
@@ -128,13 +132,14 @@ a {
 .shop-cart {
     position: relative;
     top: 20px;
+    right: 50px;
 }
 .navbar2 {
     display: flex;
     justify-content: start;
     align-items: center;
     width: 100%;
-    margin: 10px 0px 0px 0px;
+    margin: -10px 0px 0px 0px;
     background-color: #232f3e;
     /* padding: 10px 0px 10px 15px; */
 }
@@ -160,22 +165,88 @@ a {
 }
 .card {
     border: 1px solid white;
-    width: 300px;
-    height: 400px;
-    padding: 20px;
-    margin:100px 100px 100px 100px;
+    width: 440px;
+    height: 430px;
+    padding: 10px;
+    margin:0px 30px 50px 30px;
+    position: relative;
+    top: 350px;
+    background-color: #ffff;
+    color: #000;
+    box-shadow: 15px 10px 25px #d41a9c;
+    
+}
+.card p {
+    color: #000;
+    font-size: 25px;
+    font-weight: 700;
 }
 .cards {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: 300px;
-}
-.{
+    height: 100vh;
+    /* margin-top: 300px; */
     background: url(images/J23_P3B_PC_NTA_Hero_2x_V3._CB573693536_.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
-.card1 {
+.card img {
+    padding: 10px 0px 10px 0px;
+    margin: 0px 5px;
+}
+.card3 img{
+    margin: 0px 16px;
+    width: 90%;
+    height: 73%;
+}
+.card4 img {
+    margin-left: 15px;
+}
+.card5 img {
+    margin-left: 15px;
+}
+.card6 img {
+    margin-left: 20px;
+}
+.card h6{
+    display: inline;
+    color: blue;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+.card h6:hover{
+    color: red;
+    text-decoration: underline;
+}
+.card1 img:hover {
+    width: 195px;
+    height: 145px;
+}
+.card2 img:hover {
+    width: 195px;
+    height: 145px;
+}
+.card3 img:hover {
+    margin-left: 10px;
+    width: 95%;
+    height: 77%;
+}
+.card4 img:hover {
+    margin-left: 5px;
+    width: 95%;
+    height: 82%;
+}
+.card5 img:hover {
+    margin-left: 5px;
+    width: 95%;
+    height: 82%;
+}
+.card6 img:hover {
+    margin-left: 10px;
+    width: 95%;
+    height: 82%;
 }
